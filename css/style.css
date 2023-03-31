@@ -1,13 +1,15 @@
 @font-face {
-  font-family: "Montserrat-Bold";
+  font-family: 'Montserrat-Bold';
   src: url("../fonts/Montserrat-Bold.woff2");
   font-weight: 700;
 }
+
 @font-face {
-  font-family: "Montserrat-Regular";
+  font-family: 'Montserrat-Regular';
   src: url("../fonts/Montserrat-Regular.woff2");
   font-weight: 400;
 }
+
 *,
 *::before,
 *::after {
@@ -151,12 +153,18 @@ table {
   clear: both;
   display: block;
 }
+/*--------------------------------------------------*/
+
+
+header {
+	font-family: 'Montserrat-Bold';
+	font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+}
 
 /*--------------------------------------------------*/
 /* !COLORS */
-body {
-  background: #323264;
-}
 
 @media screen and (max-width: 375px) {
   /*! HEADER  */
