@@ -165,6 +165,9 @@ header {
 
 /*--------------------------------------------------*/
 /* !COLORS */
+body {
+  background: #323264;
+}
 
 @media screen and (max-width: 375px) {
   /*! HEADER  */
@@ -193,7 +196,7 @@ header {
   .header__number {
     margin-left: 149px;
   }
-  .header__item_2 {
+  .header__active {
     background: #F0145A;
     border-radius: 8px;
     padding: 5px 5px 5px 5px;
